@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "haitchl",
+  "version": "${version}",
+  "name": "HaitchL",
+  "description": "HaitchL's DonutSMP gambling companion: payment tracker, balance & stats HUD, winstreak counter, adjustable pay-wall and chat colour changer.",
+  "authors": ["HaitchL"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/haitchl/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.haitchl.HaitchL"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
